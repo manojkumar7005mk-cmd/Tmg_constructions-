@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TMG Construction – Build Your Dream</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- TMG Stylesheet -->
+<link rel="stylesheet" href="tmg-style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     CUSTOM CURSOR
+══════════════════════════════════════ -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ══════════════════════════════════════
+     PAGE LOADER
+══════════════════════════════════════ -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">TMG <span>CON</span></div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">TMG <span>CON</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Open Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     MOBILE MENU
+══════════════════════════════════════ -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mobile-close" id="mobileClose"><i class="fa fa-times"></i></span>
+  <a href="#about"    class="mobile-link">About</a>
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#contact"  class="mobile-link">Contact</a>
+</div>
+
+<!-- ══════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Premium Construction Services
+    </div>
+    <h1 class="hero-h1">
+      Build Your<span class="line-red">Dream.</span>
+    </h1>
+    <p class="hero-sub">
+      Professional Construction &amp; Planning Services — turning your vision
+      into lasting structures built with precision and care.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary" id="hero-cta">
+        <i class="fa fa-phone"></i> Contact Now
+      </a>
+      <a href="#services" class="btn-outline">
+        <i class="fa fa-arrow-down"></i> Our Services
+      </a>
+    </div>
+  </div>
+
+  <!-- Stats bar -->
+  <div class="hero-stats">
+    <div class="stat-card">
+      <div class="stat-num" data-target="15">0</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-target="350">0</div>
+      <div class="stat-label">Projects Done</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-target="280">0</div>
+      <div class="stat-label">Happy Clients</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-target="25">0</div>
+      <div class="stat-label">Expert Engineers</div>
+    </div>
+  </div>
+</section>
+
+<div class="red-divider"></div>
+
+<!-- ══════════════════════════════════════
+     ABOUT SECTION
+══════════════════════════════════════ -->
+<section id="about">
+  <div class="about-grid">
+
+    <!-- Image column -->
+    <div class="about-img-wrap reveal-left">
+      <div class="about-img-main">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+             alt="TMG Construction Team">
+      </div>
+      <div class="about-accent-box">
+        <div class="num">15+</div>
+        <div class="txt">Years of Excellence</div>
+      </div>
+    </div>
+
+    <!-- Content column -->
+    <div class="about-content reveal-right">
+      <div class="section-label">Who We Are</div>
+      <h2 class="section-title">TMG <span>Construction</span></h2>
+      <p class="about-desc">
+        TMG Construction is a premier construction and planning company based in
+        Theni, Tamil Nadu. With over 15 years of hands-on experience, we specialise
+        in residential and commercial projects — delivering precision-engineered
+        structures from foundation to finish. Our team blends technical expertise
+        with creative vision to bring your dream spaces to life.
+      </p>
+
+      <!-- Engineer profile -->
+      <div class="about-engineer">
+        <div class="eng-avatar">TV</div>
+        <div class="eng-info">
+          <div class="name">Er. T. Velmurugan</div>
+          <div class="role">DCE · BE · Licensed Engineer &amp; Founder</div>
+        </div>
+      </div>
+
+      <!-- Feature grid -->
+      <div class="features-list">
+        <div class="feature-item"><i class="fa fa-check-circle"></i> Expert Planning &amp; Design</div>
+        <div class="feature-item"><i class="fa fa-check-circle"></i> Govt. Approval Ready</div>
+        <div class="feature-item"><i class="fa fa-check-circle"></i> On-Time Delivery</div>
+        <div class="feature-item"><i class="fa fa-check-circle"></i> Budget Transparent</div>
+        <div class="feature-item"><i class="fa fa-check-circle"></i> Structural Safety</div>
+        <div class="feature-item"><i class="fa fa-check-circle"></i> Post-Build Support</div>
+      </div>
+
+      <!-- Credential card (from business card) -->
+      <div class="credential-card">
+        <div class="cred-left">
+          <div class="cred-name">Er. T. Velmurugan</div>
+          <div class="cred-quals">
+            <span class="cred-badge">DCE</span>
+            <span class="cred-badge">BE</span>
+            <span class="cred-badge licensed">
+              <i class="fa fa-id-badge"></i> Licensed Engineer
+            </span>
+          </div>
+        </div>
+        <div class="cred-right">
+          <div class="cred-contact-row"><i class="fa fa-phone"></i> 6381674603</div>
+          <div class="cred-contact-row"><i class="fa fa-phone"></i> 8508786388</div>
+          <div class="cred-contact-row"><i class="fa fa-envelope"></i> Velutharmar@gmail.com</div>
+          <div class="cred-contact-row"><i class="fa fa-map-marker-alt"></i> Vaigai Road, K.Vilaku, Theni‑625512</div>
+        </div>
+      </div>
+
+    </div><!-- /about-content -->
+  </div><!-- /about-grid -->
+</section>
+
+<div class="red-divider"></div>
+
+<!-- ══════════════════════════════════════
+     SERVICES SECTION
+══════════════════════════════════════ -->
+<section id="services">
+  <div class="services-header reveal">
+    <div class="section-label">What We Offer</div>
+    <h2 class="section-title">Our <span>Services</span></h2>
+    <p>From blueprint to building — we handle every stage of your construction
+       journey with expert care and professionalism.</p>
+  </div>
+
+  <div class="services-grid">
+    <!-- 01 -->
+    <div class="service-card reveal" style="transition-delay:0.1s">
+      <div class="service-num">01</div>
+      <div class="service-icon-wrap"><i class="fa fa-drafting-compass"></i></div>
+      <div class="service-title">Model Plan</div>
+      <p class="service-desc">
+        Detailed architectural model plans crafted with precision — 2D layouts and
+        3D visualisations to bring your vision to life before the first brick is laid.
+      </p>
+      <div class="service-arrow"><i class="fa fa-arrow-right"></i> Learn More</div>
+    </div>
+    <!-- 02 -->
+    <div class="service-card reveal" style="transition-delay:0.2s">
+      <div class="service-num">02</div>
+      <div class="service-icon-wrap"><i class="fa fa-file-signature"></i></div>
+      <div class="service-title">Approval Plan</div>
+      <p class="service-desc">
+        Complete government and municipal approval documentation prepared with
+        accuracy — ensuring your project is legally compliant and fast-tracked.
+      </p>
+      <div class="service-arrow"><i class="fa fa-arrow-right"></i> Learn More</div>
+    </div>
+    <!-- 03 -->
+    <div class="service-card reveal" style="transition-delay:0.3s">
+      <div class="service-num">03</div>
+      <div class="service-icon-wrap"><i class="fa fa-calculator"></i></div>
+      <div class="service-title">Building Estimate</div>
+      <p class="service-desc">
+        Transparent and detailed cost estimations covering materials, labour, and
+        timelines — so you can plan your budget with complete confidence.
+      </p>
+      <div class="service-arrow"><i class="fa fa-arrow-right"></i> Learn More</div>
+    </div>
+    <!-- 04 -->
+    <div class="service-card reveal" style="transition-delay:0.4s">
+      <div class="service-num">04</div>
+      <div class="service-icon-wrap"><i class="fa fa-hard-hat"></i></div>
+      <div class="service-title">Building Contract</div>
+      <p class="service-desc">
+        End-to-end building contracts with legally sound agreements — from ground-
+        breaking to final handover, managed by our experienced team.
+      </p>
+      <div class="service-arrow"><i class="fa fa-arrow-right"></i> Learn More</div>
+    </div>
+  </div>
+</section>
+
+<div class="red-divider"></div>
+
+<!-- ══════════════════════════════════════
+     PROJECTS / GALLERY SECTION
+══════════════════════════════════════ -->
+<section id="projects">
+  <div class="projects-header">
+    <div class="reveal-left">
+      <div class="section-label">Our Portfolio</div>
+      <h2 class="section-title">Recent <span>Projects</span></h2>
+    </div>
+    <div class="reveal-right">
+      <p>A showcase of our finest builds — residential homes, commercial spaces,
+         and landmark structures across Theni and beyond.</p>
+    </div>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item reveal-left">
+      <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80"
+           alt="Residential Building">
+      <div class="gallery-overlay">
+        <div class="gallery-info">
+          <div class="gtitle">Luxury Residence</div>
+          <div class="gsub">Residential · Theni</div>
+        </div>
+      </div>
+      <div class="gallery-zoom"><i class="fa fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item reveal">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+           alt="Commercial Office">
+      <div class="gallery-overlay">
+        <div class="gallery-info">
+          <div class="gtitle">Corporate Office</div>
+          <div class="gsub">Commercial · Madurai</div>
+        </div>
+      </div>
+      <div class="gallery-zoom"><i class="fa fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item reveal" style="transition-delay:0.1s">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+           alt="Modern Villa">
+      <div class="gallery-overlay">
+        <div class="gallery-info">
+          <div class="gtitle">Modern Villa</div>
+          <div class="gsub">Residential · Theni</div>
+        </div>
+      </div>
+      <div class="gallery-zoom"><i class="fa fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item reveal" style="transition-delay:0.2s">
+      <img src="https://images.unsplash.com/photo-1555636222-cae831e670b3?w=800&q=80"
+           alt="Apartment Complex">
+      <div class="gallery-overlay">
+        <div class="gallery-info">
+          <div class="gtitle">Apartment Complex</div>
+          <div class="gsub">Multi-Unit · Periyakulam</div>
+        </div>
+      </div>
+      <div class="gallery-zoom"><i class="fa fa-expand"></i></div>
+    </div>
+
+    <div class="gallery-item reveal" style="transition-delay:0.3s">
+      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+           alt="Industrial Shed">
+      <div class="gallery-overlay">
+        <div class="gallery-info">
+          <div class="gtitle">Industrial Shed</div>
+          <div class="gsub">Industrial · Bodinayakanur</div>
+        </div>
+      </div>
+      <div class="gallery-zoom"><i class="fa fa-expand"></i></div>
+    </div>
+  </div>
+</section>
+
+<div class="red-divider"></div>
+
+<!-- ══════════════════════════════════════
+     CONTACT SECTION
+══════════════════════════════════════ -->
+<section id="contact">
+  <div class="contact-wrapper">
+
+    <!-- Left: info + map -->
+    <div class="reveal-left">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Let's <span>Build</span> Together</h2>
+      <p class="contact-info-title">
+        Ready to start your project? Reach out and our team will connect
+        with you within 24 hours.
+      </p>
+
+      <div class="contact-items">
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa fa-phone"></i></div>
+          <div class="contact-item-text">
+            <div class="label">Phone</div>
+            <a href="tel:6381674603" class="value">6381674603</a><br>
+            <a href="tel:8508786388" class="value">8508786388</a>
+          </div>
+        </div>
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+          <div class="contact-item-text">
+            <div class="label">Email</div>
+            <a href="mailto:Velutharmar@gmail.com" class="value">Velutharmar@gmail.com</a>
+          </div>
+        </div>
+        <!-- Address -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa fa-map-marker-alt"></i></div>
+          <div class="contact-item-text">
+            <div class="label">Office Address</div>
+            <div class="value">Vaigai Road, K.Vilaku,<br>Theni – 625512, Tamil Nadu</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps -->
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62727.32!2d77.47!3d10.00!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076b0a7d3e58a5%3A0x6b0f8bc6e2f5ecb7!2sTheni%2C%20Tamil%20Nadu%20625512!5e0!3m2!1sen!2sin!4v1620000000000"
+          allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="TMG Construction Location">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Right: contact form -->
+    <div class="contact-form-wrap reveal-right">
+      <div class="form-title">Send a <span>Message</span></div>
+      <form id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="fphone">Phone Number</label>
+            <input type="tel" id="fphone" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="femail">Email Address</label>
+          <input type="email" id="femail" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="fservice">Service Required</label>
+          <input type="text" id="fservice" placeholder="e.g. Model Plan, Building Contract…">
+        </div>
+        <div class="form-group">
+          <label for="fmessage">Your Message</label>
+          <textarea id="fmessage" rows="5" placeholder="Tell us about your project…" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          <i class="fa fa-paper-plane"></i> Send Message
+        </button>
+        <div class="form-success" id="formSuccess">
+          ✅ Message sent! We'll contact you within 24 hours.
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">TMG <span>Construction</span></div>
+      <p>Building dreams into reality since 2009. Trusted by hundreds of families
+         and businesses across Tamil Nadu for quality construction and planning
+         services.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/916381674603" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:Velutharmar@gmail.com" class="social-btn" aria-label="Email"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Our Services</h4>
+      <ul class="footer-links">
+        <li><a href="#services">Model Plan</a></li>
+        <li><a href="#services">Approval Plan</a></li>
+        <li><a href="#services">Building Estimate</a></li>
+        <li><a href="#services">Building Contract</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 <span>TMG Construction</span>. All rights reserved.</p>
+    <p>Er. T. Velmurugan · DCE · BE · <span>Licensed Engineer</span> · Theni</p>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     FLOATING WHATSAPP BUTTON
+══════════════════════════════════════ -->
+<a href="https://wa.me/916381674603?text=Hello%20TMG%20Construction%2C%20I%20am%20interested%20in%20your%20services."
+   id="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="wa-tooltip">Chat on WhatsApp</span>
+</a>
+
+<!-- ══════════════════════════════════════
+     SCROLL TO TOP BUTTON
+══════════════════════════════════════ -->
+<button id="scroll-top" aria-label="Scroll to top">
+  <i class="fa fa-chevron-up"></i>
+</button>
+
+<!-- ══════════════════════════════════════
+     TMG SCRIPT
+══════════════════════════════════════ -->
+<script src="tmg-script.js"></script>
+</body>
+</html>
